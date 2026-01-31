@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /YiguirrosTouringGuide/
+
+# Reglas específicas para cada página
+RewriteRule ^tours$ pages/tours.html [L]
+RewriteRule ^tours/$ pages/tours.html [L]
+RewriteRule ^about$ pages/about.html [L]
+RewriteRule ^about/$ pages/about.html [L]
+RewriteRule ^contact$ pages/contact.html [L]
+RewriteRule ^contact/$ pages/contact.html [L]

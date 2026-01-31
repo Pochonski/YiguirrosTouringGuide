@@ -5,15 +5,15 @@
  */
 
 // Email configuration
-define('EMAIL_TO', 'Reservation@slothadventurecr.com');
-define('EMAIL_FROM', 'Reservation@slothadventurecr.com');
-define('EMAIL_FROM_NAME', 'Sloth Adventure CR');
+define('EMAIL_TO', 'joseph19102005@gmail.com');
+define('EMAIL_FROM', 'joseph19102005@gmail.com');
+define('EMAIL_FROM_NAME', 'Yiguirros Touring Guide');
 
 // SMTP configuration for Gmail
 define('SMTP_HOST', 'smtp.gmail.com');
 define('SMTP_PORT', 587);
-define('SMTP_USERNAME', 'Reservation@slothadventurecr.com'); // Your Gmail address
-define('SMTP_PASSWORD', 'kppr fazz ntyq rrep'); // App password (leave empty if not configured yet)
+define('SMTP_USERNAME', 'joseph19102005@gmail.com'); // Your Gmail address
+define('SMTP_PASSWORD', 'jfhl fsvl tifx sjip'); // App password (leave empty if not configured yet)
 define('SMTP_ENCRYPTION', 'tls');
 
 // reCAPTCHA configuration
