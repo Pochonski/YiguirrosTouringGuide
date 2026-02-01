@@ -1,4 +1,4 @@
-// Diccionario de traducciones español/inglés para Sloth Adventures CR
+// Diccionario de traducciones español/inglés para Yigüirros Touring Guide
 const translations = {
   es: {
     // Navbar
@@ -8,7 +8,7 @@ const translations = {
     nav_blogs: "Blogs",
     
     // Home Page
-    home_title: "Sloth Adventures CR",
+    home_title: "Yigüirros Touring Guide",
     home_subtitle: "Descubre la belleza natural de Costa Rica",
     home_cta: "Explorar Tours",
     home_about_title: "Sobre Nosotros",
@@ -126,14 +126,14 @@ const translations = {
     
     // Footer
     footer_about: "Sobre Nosotros",
-    footer_about_text: "Sloth Adventures CR es tu mejor opción para explorar la naturaleza de Costa Rica con guías expertos.",
+    footer_about_text: "Yigüirros Touring Guide es tu mejor opción para explorar la naturaleza de Costa Rica con guías expertos.",
     footer_quick_links: "Enlaces Rápidos",
     footer_tours: "Tours",
     footer_about_link: "Nosotros",
     footer_contact: "Contacto",
     footer_blogs: "Blogs",
     footer_follow: "Síguenos",
-    footer_rights: "© 2024 Sloth Adventures CR. Todos los derechos reservados.",
+    footer_rights: "© 2026 Yigüirros Touring Guide. Todos los derechos reservados.",
     
     // Blogs Page
     blogs_title: "Nuestro Blog",
@@ -177,7 +177,7 @@ const translations = {
     contact_send: "Enviar Mensaje",
     contact_form_title: "Formulario de Contacto",
     contact_address_title: "Dirección",
-    contact_address_text: "La Fortuna de San Carlos",
+    contact_address_text: "Costa Rica",
     contact_email_title: "Correo Electrónico",
     contact_phone_title: "Teléfono",
     
@@ -194,10 +194,10 @@ const translations = {
     
     // Footer
     footer_address_title: "Dirección",
-    footer_address: "La Fortuna de San Carlos",
+    footer_address: "Costa Rica",
     footer_email_title: "Correo",
     footer_phone_title: "Teléfono",
-    footer_copyright: "© 2025 Sloth Adventure CR. Todos los derechos reservados.",
+    footer_copyright: "© 2026 Yigüirros Touring Guide. Todos los derechos reservados.",
     
     // Tour Features
     feature_guided: "Tour Guiado",
@@ -403,14 +403,14 @@ const translations = {
     
     // Footer
     footer_about: "About Us",
-    footer_about_text: "Sloth Adventures CR is your best choice to explore Costa Rica's nature with expert guides.",
+    footer_about_text: "Yigüirros Touring Guide is your best choice to explore Costa Rica's nature with expert guides.",
     footer_quick_links: "Quick Links",
     footer_tours: "Tours",
     footer_about_link: "About",
     footer_contact: "Contact",
     footer_blogs: "Blogs",
     footer_follow: "Follow Us",
-    footer_rights: "© 2024 Sloth Adventures CR. All rights reserved.",
+    footer_rights: "© 2026 Yigüirros Touring Guide. All rights reserved.",
     
     // Blogs Page
     blogs_title: "Our Blog",
@@ -474,7 +474,7 @@ const translations = {
     footer_address: "La Fortuna de San Carlos",
     footer_email_title: "Email",
     footer_phone_title: "Phone",
-    footer_copyright: "© 2025 Sloth Adventure CR. All rights reserved.",
+    footer_copyright: "© 2026 Yigüirros Touring Guide. All rights reserved.",
     
     // Tour Features
     feature_guided: "Guided Tour",
