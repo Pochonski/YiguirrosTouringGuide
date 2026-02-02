@@ -1,6 +1,6 @@
 <?php
 /**
- * Configuration file for Sloth Adventure CR
+ * Configuration file for Yiguirros Adventure CR
  * Centralizes all configuration settings
  */
 

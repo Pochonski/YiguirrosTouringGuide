@@ -30,12 +30,12 @@ const translations = {
     birdwatching_duration: "3-4 horas",
     birdwatching_includes: "Incluye guía experto, binoculares y transporte",
     
-    // Sloth Watching
-    sloth_title: "Experiencia de Observación de Perezosos",
-    sloth_subtitle: "Conoce a los adorables perezosos de Costa Rica",
-    sloth_desc: "Una experiencia mágica para observar perezosos en su hábitat natural. Aprende sobre su comportamiento y conservación.",
-    sloth_duration: "2-3 horas",
-    sloth_includes: "Incluye guía naturalista y refrigerios",
+    // Yiguirros Watching
+    yiguirros_title: "Experiencia de Observación de Yigüirros",
+    yiguirros_subtitle: "Conoce a los emblemáticos yigüirros de Costa Rica",
+    yiguirros_desc: "Una experiencia mágica para observar yigüirros en su hábitat natural. Aprende sobre su comportamiento y conservación.",
+    yiguirros_duration: "2-3 horas",
+    yiguirros_includes: "Incluye guía naturalista y refrigerios",
     
     // Night Walk
     nightwalk_title: "Aventura de Caminata Nocturna",
@@ -151,7 +151,7 @@ const translations = {
     
     // Home page tour cards
     birdwatching_card_desc: "Con una cantidad asombrosa de aves, Costa Rica es uno de los lugares más importantes para la observación de aves en el mundo. Nuestros profesionales te ayudarán a reconocer las especies y disfrutar de una experiencia maravillosa con las aves de Costa Rica.",
-    sloth_card_desc: "Déjanos presentarte a una de las criaturas más maravillosas del mundo, el perezoso. Realizaremos caminatas cortas por el bosque tropical buscando perezosos en su hábitat natural, disfrutando de estos maravillosos animales de manera responsable.",
+    yiguirros_card_desc: "Déjanos presentarte a una de las aves más emblemáticas de Costa Rica, el yigüirro. Realizaremos caminatas cortas por el bosque tropical buscando yigüirros en su hábitat natural, disfrutando de estos maravillosos animales de manera responsable.",
     nightwalk_card_desc: "La vida nocturna en los trópicos es excepcional, y Costa Rica es conocida por tener la mayor diversidad de animales nocturnos. Exploremos los tesoros ocultos del maravilloso bosque tropical en la base del icónico Volcán Arenal.",
     
     // Tours page
@@ -285,7 +285,7 @@ const translations = {
     nav_blogs: "Blogs",
     
     // Home Page
-    home_title: "Sloth Adventures CR",
+    home_title: "Yiguirros Adventures CR",
     home_subtitle: "Discover the Natural Beauty of Costa Rica",
     home_cta: "Explore Tours",
     home_about_title: "About Us",
@@ -307,12 +307,12 @@ const translations = {
     birdwatching_duration: "3-4 hours",
     birdwatching_includes: "Includes expert guide, binoculars and transportation",
     
-    // Sloth Watching
-    sloth_title: "Sloth Watching Experience",
-    sloth_subtitle: "Meet Costa Rica's Adorable Sloths",
-    sloth_desc: "A magical experience to observe sloths in their natural habitat. Learn about their behavior and conservation.",
-    sloth_duration: "2-3 hours",
-    sloth_includes: "Includes naturalist guide and refreshments",
+    // Yiguirros Watching
+    yiguirros_title: "Yiguirros Watching Experience",
+    yiguirros_subtitle: "Meet Costa Rica's Iconic Yiguirros",
+    yiguirros_desc: "A magical experience to observe yiguirros in their natural habitat. Learn about their behavior and conservation.",
+    yiguirros_duration: "2-3 hours",
+    yiguirros_includes: "Includes naturalist guide and refreshments",
     
     // Night Walk
     nightwalk_title: "Night Walk Adventure",
@@ -428,7 +428,7 @@ const translations = {
     
     // Home page tour cards
     birdwatching_card_desc: "With an amazing amount of birds, Costa Rica is one of the most important places for bird watching in the world. Our professionals will help you recognize species and enjoy a wonderful experience with Costa Rica's birds.",
-    sloth_card_desc: "Let us introduce you to one of the most wonderful creatures in the world, the sloth. We will take short walks through the rainforest looking for sloths in their natural habitat, enjoying these wonderful animals responsibly.",
+    yiguirros_card_desc: "Let us introduce you to one of the most iconic birds in Costa Rica, the yiguirro. We will take short walks through the rainforest looking for yiguirros in their natural habitat, enjoying these wonderful animals responsibly.",
     nightwalk_card_desc: "Nightlife in the tropics is exceptional, and Costa Rica is known for having the richest diversity of nocturnal animals. Let's explore the hidden treasures of the wonderful rainforest at the base of the iconic Arenal Volcano.",
     
     // Tours page
