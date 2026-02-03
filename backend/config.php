@@ -20,7 +20,7 @@ define('SMTP_ENCRYPTION', 'tls');
 define('RECAPTCHA_SECRET_KEY', '6LfnziksAAAAAMx8vQGB7SzwRnVZd4XJyD43d6PM'); // Replace with your actual secret key
 
 // Application settings
-define('REDIRECT_SUCCESS_URL', '../index.html');
+define('REDIRECT_SUCCESS_URL', '../pages/tours.html');
 define('REDIRECT_ERROR_URL', '../pages/contact.html');
 
 // Development mode (set to false in production)
