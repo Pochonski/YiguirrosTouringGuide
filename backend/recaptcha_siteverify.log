@@ -34,3 +34,8 @@
   "challenge_ts": "2026-02-03T04:05:07Z",
   "hostname": "localhost"
 }
+2026-02-03T06:53:26+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T05:53:17Z",
+  "hostname": "localhost"
+}
