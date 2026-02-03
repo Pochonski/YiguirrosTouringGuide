@@ -19,7 +19,12 @@ header('Access-Control-Allow-Headers: Content-Type');
 ob_clean();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $result = Mailer::sendContactForm($_POST);
+    // Check if this is a tour booking form
+    if (isset($_POST['tour']) && isset($_POST['first_name']) && isset($_POST['last_name'])) {
+        $result = Mailer::sendTourBooking($_POST);
+    } else {
+        $result = Mailer::sendContactForm($_POST);
+    }
     
     // Ensure result has required keys
     if (!isset($result['success'])) {

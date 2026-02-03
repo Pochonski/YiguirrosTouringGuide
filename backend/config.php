@@ -17,7 +17,7 @@ define('SMTP_PASSWORD', 'jfhl fsvl tifx sjip'); // App password (leave empty if 
 define('SMTP_ENCRYPTION', 'tls');
 
 // reCAPTCHA configuration
-define('RECAPTCHA_SECRET_KEY', '6LfnziksAAAAAMx8vQGB7SzwRnVZd4XJyD43d6PM'); // Replace with your actual secret key
+define('RECAPTCHA_SECRET_KEY', '6LfnziksAAAAAMx8vQGB7SzwRnVZd4XJyD43d6PM'); 
 
 // Application settings
 define('REDIRECT_SUCCESS_URL', '../pages/tours.html');

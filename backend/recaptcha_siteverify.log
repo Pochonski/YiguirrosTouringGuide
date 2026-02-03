@@ -39,3 +39,73 @@
   "challenge_ts": "2026-02-03T05:53:17Z",
   "hostname": "localhost"
 }
+2026-02-03T08:45:48+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T07:45:38Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:15:45+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:15:37Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:24:50+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:24:37Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:25:25+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:25:14Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:25:54+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:25:33Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:26:51+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:26:30Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:27:58+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:27:32Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:28:53+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:28:39Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:29:53+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:29:31Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:34:56+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:30:08Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:37:52+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:37:36Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:39:04+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:38:45Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:40:12+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:39:53Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:41:16+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:41:04Z",
+  "hostname": "localhost"
+}

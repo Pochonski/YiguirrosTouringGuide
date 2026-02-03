@@ -245,12 +245,15 @@ Dear $name,
 Thank you for reaching out to us. We have received your message and will get back to you shortly.
 
 Here is the information we received:
+
 Country: $country
+
 Phone: $phone
+
 Message: $message
 
 Best regards,
-Sloth Adventure CR Team
+Yigüirro's Touring Guide.
         ";
         
         $sentToClient = self::send($email, $clientSubject, $clientMessage);
@@ -342,7 +345,7 @@ Sloth Adventure CR Team
         </ul>
         <p><strong>Notes:</strong> $notas</p>
         <p>You will receive the service confirmation within 24 hours. An agent will contact you.</p>
-        <p>Best regards,<br>Sloth Adventure CR Team</p>
+        <p>Best regards,<br>Yiguirros Touring Guide</p>
         ";
         
         // Send emails
@@ -412,7 +415,7 @@ Thank you for your interest in our custom tours in Costa Rica.
 We've received your request and our team is reviewing the details. You will receive your quote within 48 hours.
 
 PURA VIDA!
-– Sloth Adventure CR Team
+– Yiguirros Touring Guide
         ";
         
         $sentToClient = self::send($email, $clientSubject, $clientMessage);
