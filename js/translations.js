@@ -165,6 +165,63 @@ const translations = {
     tours_personalized_quote: "🌟 No dudes en solicitar una cotización y prepárate para disfrutar una experiencia inolvidable en nuestro país.",
     tours_personalized_pura: "¡Ven y siente el verdadero significado de PURA VIDA!",
     tours_personalized_button: "contactanos",
+    
+    // Tour Cards
+    tour_volcano_arenal_title: "Caminata al Volcán Arenal",
+    tour_volcano_arenal_desc: "Explora senderos volcánicos rodeados de naturaleza y disfruta de vistas impresionantes del Arenal.",
+    tour_celeste_river_title: "Caminata al Río Celeste",
+    tour_celeste_river_desc: "Visita el místico Río Celeste con sus aguas azul turquesa y senderos de bosque tropical.",
+    tour_cahuita_title: "Parque Nacional Cahuita",
+    tour_cahuita_desc: "Recorre senderos costeros y playas de aguas cristalinas en el Caribe costarricense.",
+    tour_canopy_monteverde_title: "Canopy en Monteverde",
+    tour_canopy_monteverde_desc: "Vive una experiencia de aventura volando sobre el bosque nuboso.",
+    tour_aguas_termales_title: "Aguas termales del Arenal",
+    tour_aguas_termales_desc: "Relájate en piscinas naturales de aguas termales rodeadas de naturaleza.",
+    tour_snorkeling_title: "Snorkeling y buceo",
+    tour_snorkeling_desc: "Explora arrecifes y vida marina en aguas cristalinas del Pacífico.",
+    tour_more_info: "Más información",
+    
+    // Individual Tour Pages
+    tour_page_description: "Descripción",
+    tour_page_included: "Incluido",
+    tour_page_what_to_bring: "Qué traer",
+    tour_page_reserve: "Reservar Tour",
+    tour_page_whatsapp: "WhatsApp",
+    tour_page_reserve_form: "Formulario de Reserva",
+    tour_page_tour_label: "Tour",
+    tour_page_name_label: "Nombre",
+    tour_page_email_label: "Correo",
+    tour_page_phone_label: "Teléfono",
+    tour_page_date_label: "Fecha",
+    tour_page_send_reserve: "Enviar reserva",
+    tour_page_cancel: "Cancelar",
+    
+    // Celeste River Tour
+    celeste_title: "CAMINATA AL RÍO CELESTE – VOLCÁN TENORIO",
+    celeste_subtitle: "Visita el místico Río Celeste con sus aguas azul turquesa y senderos de bosque tropical.",
+    celeste_desc: "Recorrido guiado por el Parque Nacional Volcán Tenorio para conocer la catarata del Río Celeste, los teñideros y senderos rodeados de naturaleza exuberante.",
+    
+    // Snorkeling Tour
+    snorkeling_title: "SNORKELING / BUCEO – ISLAS CATALINA, GUANACASTE",
+    snorkeling_subtitle: "Explora arrecifes y vida marina en aguas cristalinas del Pacífico.",
+    snorkeling_desc: "Tour marino para descubrir arrecifes volcánicos y observar peces tropicales, rayas y otras especies marinas.",
+    
+    // Other Tours
+    volcano_title: "CAMINATA VOLCÁN ARENAL",
+    volcano_subtitle: "Explora senderos volcánicos rodeados de naturaleza y disfruta de vistas impresionantes del Arenal.",
+    volcano_desc: "Caminata guiada por los senderos del Volcán Arenal con vistas espectaculares. Conoce la historia geológica de la región.",
+    
+    cahuita_title: "PARQUE NACIONAL CAHUITA",
+    cahuita_subtitle: "Recorre senderos costeros y playas de aguas cristalinas en el Caribe costarricense.",
+    cahuita_desc: "Explora el Parque Nacional Cahuita con sus playas de arena blanca, arrecifes de coral y diversa vida marina.",
+    
+    canopy_title: "CANOPY EN MONTEVERDE",
+    canopy_subtitle: "Vive una experiencia de aventura volando sobre el bosque nuboso.",
+    canopy_desc: "Siente la adrenalina recorriendo cables sobre el dosel del bosque nuboso con vistas panorámicas impresionantes.",
+    
+    aguas_termales_title: "AGUAS TERMALES DEL ARENAL",
+    aguas_termales_subtitle: "Relájate en piscinas naturales de aguas termales rodeadas de naturaleza.",
+    aguas_termales_desc: "Disfruta de las relajantes aguas termales del Arenal mientras observas la impresionante vista del volcán.",
     volcano_card_desc: "Caminata guiada por los senderos del Volcán Arenal con vistas espectaculares. Conoce la historia geológica de la región.",
     bridges_card_desc: "Recorre puentes colgantes a través del dosel del bosque lluvioso. Vistas panorámicas y biodiversidad increíble.",
     fullday_card_desc: "Combina caminatas, vida silvestre, aguas termales y más. Un día lleno de aventura y relajación en el Arenal.",
@@ -442,6 +499,63 @@ const translations = {
     tours_personalized_quote: "🌟 Don’t hesitate to request a quote and get ready to enjoy an unforgettable experience in our country.",
     tours_personalized_pura: "Come and feel the true meaning of PURA VIDA!",
     tours_personalized_button: "contact us",
+    
+    // Tour Cards
+    tour_volcano_arenal_title: "Arenal Volcano Hike",
+    tour_volcano_arenal_desc: "Explore volcanic trails surrounded by nature and enjoy impressive views of Arenal.",
+    tour_celeste_river_title: "Celeste River Hike",
+    tour_celeste_river_desc: "Visit the mystical Celeste River with its turquoise blue waters and tropical forest trails.",
+    tour_cahuita_title: "Cahuita National Park",
+    tour_cahuita_desc: "Walk coastal trails and crystal clear water beaches on the Costa Rican Caribbean.",
+    tour_canopy_monteverde_title: "Canopy in Monteverde",
+    tour_canopy_monteverde_desc: "Live an adventure experience flying over the cloud forest.",
+    tour_aguas_termales_title: "Arenal Hot Springs",
+    tour_aguas_termales_desc: "Relax in natural hot spring pools surrounded by nature.",
+    tour_snorkeling_title: "Snorkeling and Diving",
+    tour_snorkeling_desc: "Explore reefs and marine life in the crystal clear waters of the Pacific.",
+    tour_more_info: "More information",
+    
+    // Individual Tour Pages
+    tour_page_description: "Description",
+    tour_page_included: "Included",
+    tour_page_what_to_bring: "What to Bring",
+    tour_page_reserve: "Book Tour",
+    tour_page_whatsapp: "WhatsApp",
+    tour_page_reserve_form: "Booking Form",
+    tour_page_tour_label: "Tour",
+    tour_page_name_label: "Name",
+    tour_page_email_label: "Email",
+    tour_page_phone_label: "Phone",
+    tour_page_date_label: "Date",
+    tour_page_send_reserve: "Send Booking",
+    tour_page_cancel: "Cancel",
+    
+    // Celeste River Tour
+    celeste_title: "CELESTE RIVER HIKE – TENORIO VOLCANO",
+    celeste_subtitle: "Visit the mystical Celeste River with its turquoise blue waters and tropical forest trails.",
+    celeste_desc: "Guided tour through Tenorio Volcano National Park to discover the Celeste River waterfall, the dye points and trails surrounded by lush nature.",
+    
+    // Snorkeling Tour
+    snorkeling_title: "SNORKELING / DIVING – CATALINA ISLANDS, GUANACASTE",
+    snorkeling_subtitle: "Explore reefs and marine life in the crystal clear waters of the Pacific.",
+    snorkeling_desc: "Marine tour to discover volcanic reefs and observe tropical fish, rays and other marine species.",
+    
+    // Other Tours
+    volcano_title: "ARENAL VOLCANO HIKE",
+    volcano_subtitle: "Explore volcanic trails surrounded by nature and enjoy impressive views of Arenal.",
+    volcano_desc: "Guided hike through Arenal Volcano trails with spectacular views. Learn about the region's geological history.",
+    
+    cahuita_title: "CAHUITA NATIONAL PARK",
+    cahuita_subtitle: "Walk coastal trails and crystal clear water beaches on the Costa Rican Caribbean.",
+    cahuita_desc: "Explore Cahuita National Park with its white sand beaches, coral reefs and diverse marine life.",
+    
+    canopy_title: "CANOPY IN MONTEVERDE",
+    canopy_subtitle: "Live an adventure experience flying over the cloud forest.",
+    canopy_desc: "Feel the adrenaline riding cables over the cloud forest canopy with impressive panoramic views.",
+    
+    aguas_termales_title: "ARENAL HOT SPRINGS",
+    aguas_termales_subtitle: "Relax in natural hot spring pools surrounded by nature.",
+    aguas_termales_desc: "Enjoy the relaxing hot springs of Arenal while observing the impressive view of the volcano.",
     volcano_card_desc: "Guided hike through Arenal Volcano trails with spectacular views. Learn about the region's geological history.",
     bridges_card_desc: "Walk across hanging bridges through the rain forest canopy. Panoramic views and incredible biodiversity.",
     fullday_card_desc: "Combine hiking, wildlife, hot springs and more. A day full of adventure and relaxation in Arenal.",
