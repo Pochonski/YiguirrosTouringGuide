@@ -13,3 +13,19 @@
   "challenge_ts": "2026-01-31T22:39:13Z",
   "hostname": "localhost"
 }
+2026-02-02T20:52:05+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-02T19:51:40Z",
+  "hostname": "localhost"
+}
+2026-02-03T04:08:44+01:00 ::1 HTTP:0 ERR:Resolving timed out after 10007 milliseconds NO_RESPONSE
+2026-02-03T04:08:58+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T03:08:50Z",
+  "hostname": "localhost"
+}
+2026-02-03T04:10:31+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T03:09:50Z",
+  "hostname": "localhost"
+}
