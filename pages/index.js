@@ -158,7 +158,6 @@ export default function Home() {
           </div>
         </section>
 
-        </section>
         {/* Signup */}
         <div className="album py-5 bg-light">
           <div className="container">
