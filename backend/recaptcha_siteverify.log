@@ -109,3 +109,23 @@
   "challenge_ts": "2026-02-03T08:41:04Z",
   "hostname": "localhost"
 }
+2026-02-03T09:44:07+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:43:29Z",
+  "hostname": "localhost"
+}
+2026-02-03T09:45:07+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T08:44:52Z",
+  "hostname": "localhost"
+}
+2026-02-03T18:37:28+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T17:37:25Z",
+  "hostname": "localhost"
+}
+2026-02-03T19:21:33+01:00 ::1 HTTP:200 ERR:- {
+  "success": true,
+  "challenge_ts": "2026-02-03T18:19:36Z",
+  "hostname": "localhost"
+}
