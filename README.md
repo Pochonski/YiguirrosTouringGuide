@@ -51,6 +51,7 @@ Yiguirros-Touring-Guide/
 ## 🚀 Tecnologías Utilizadas
 
 ### Frontend
+
 - **HTML5** - Estructura semántica y accesible
 - **CSS3** - Estilos modernos con animaciones
 - **Bootstrap 5** - Framework CSS responsivo
@@ -59,12 +60,14 @@ Yiguirros-Touring-Guide/
 - **Google Fonts** - Tipografía personalizada (Varela Round, Nunito)
 
 ### Backend
+
 - **PHP 8.0+** - Lógica del servidor
 - **PHPMailer** - Envío de correos electrónicos via SMTP
 - **reCAPTCHA v2** - Protección contra spam
 - **JSON API** - Comunicación asíncrona
 
 ### Servicios Externos
+
 - **Google reCAPTCHA** - Validación de formularios
 - **Gmail SMTP** - Envío de correos
 - **Google Analytics** - Análisis de tráfico
@@ -72,7 +75,37 @@ Yiguirros-Touring-Guide/
 
 ## 🛠️ Configuración del Entorno de Desarrollo
 
-### Prerrequisitos
+### Opción 1: GitHub Pages (Despliegue estático - Recomendado)
+
+**Prerrequisitos:**
+
+- **Git** para control de versiones
+- Cuenta en **GitHub**
+- Cuenta en **Formspree** (para formularios)
+
+**Pasos para deploy:**
+
+1. **Fork del repositorio**
+
+   ```bash
+   # Visita: https://github.com/Pochonski/YiguirrosTouringGuide
+   # Click en "Fork"
+   ```
+
+2. **Activar GitHub Pages**
+   - En tu fork: Settings → Pages
+   - Source: "Deploy from a branch"
+   - Branch: `main` / folder: `/root`
+   - Click "Save"
+
+3. **Configurar Formspree**
+   - Crea cuenta en [Formspree](https://formspree.io/)
+   - Nuevo formulario → Email: `Reservation@yiguirrostouringuide.com`
+   - Copia el ID del formulario y actualízalo en `pages/contact.html`
+
+4. **Listo!** Tu sitio estará en: `https://[tu-usuario].github.io/YiguirrosTouringGuide`
+
+### Opción 2: Desarrollo Local (XAMPP)
 
 - **XAMPP** (Apache + MySQL + PHP) o servidor web compatible
 - **PHP 8.0 o superior**
@@ -82,6 +115,7 @@ Yiguirros-Touring-Guide/
 ### Instalación Local
 
 1. **Clonar el repositorio**
+
    ```bash
    git clone https://github.com/tu-usuario/Yiguirros-Touring-Guide.git
    cd Yiguirros-Touring-Guide
@@ -92,6 +126,7 @@ Yiguirros-Touring-Guide/
    - Copiar proyecto a `htdocs/` o configurar virtual host
 
 3. **Configurar variables de entorno**
+
    ```php
    // backend/config.php
    define('EMAIL_TO', 'tu-email@gmail.com');
@@ -178,11 +213,11 @@ Editar `css/styles.css`:
 
 ```css
 :root {
-    --primary-color: #28a745;
-    --secondary-color: #6c757d;
-    --accent-color: #ffc107;
-    --dark-color: #343a40;
-    --light-color: #f8f9fa;
+  --primary-color: #28a745;
+  --secondary-color: #6c757d;
+  --accent-color: #ffc107;
+  --dark-color: #343a40;
+  --light-color: #f8f9fa;
 }
 ```
 
@@ -215,7 +250,32 @@ private static function createEmailTemplate($data) {
 
 ## 🚀 Despliegue en Producción
 
-### Configuración de Servidor
+### GitHub Pages (Recomendado para sitios estáticos)
+
+El proyecto está configurado para despliegue automático en GitHub Pages:
+
+1. **Hacer fork del repositorio**
+
+   ```bash
+   # Fork en GitHub: https://github.com/Pochonski/YiguirrosTouringGuide
+   ```
+
+2. **Activar GitHub Pages**
+   - Ir a Settings → Pages
+   - Seleccionar "Deploy from a branch"
+   - Elegir rama `main` y carpeta `/root`
+   - Guardar configuración
+
+3. **Configurar Formspree (formulario de contacto)**
+   - Registrarse en [Formspree](https://formspree.io/)
+   - Crear nuevo formulario con el email: `Reservation@yiguirrostouringuide.com`
+   - Actualizar el ID del formulario en `pages/contact.html`
+   - El formulario funcionará sin backend PHP
+
+4. **URL del sitio**
+   - Tu sitio estará disponible en: `https://[tu-usuario].github.io/YiguirrosTouringGuide`
+
+### Configuración de Servidor Tradicional
 
 1. **Apache/Nginx**: Configurar virtual host
 2. **PHP 8.0+**: Asegurar versión compatible
@@ -268,9 +328,9 @@ php backend/test_recaptcha.php
 Configurado en todas las páginas:
 
 ```javascript
-gtag('config', 'G-56CV47Z61R', {
-    page_title: document.title,
-    page_location: window.location.href
+gtag("config", "G-56CV47Z61R", {
+  page_title: document.title,
+  page_location: window.location.href,
 });
 ```
 

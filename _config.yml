@@ -1,0 +1,38 @@
+# GitHub Pages Configuration
+theme: jekyll-theme-minimal
+title: "Yigüirros Touring Guide"
+description: "Guía turística completa para explorar las maravillas de Costa Rica"
+baseurl: ""
+url: "https://pochonski.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude files from processing
+exclude:
+  - backend/
+  - .gitignore
+  - README.md
+  - debug.php
+  - examples/
+  - .vscode/
+  - .git/
+  - node_modules/
+  - vendor/
+
+# Include specific files
+include:
+  - _redirects
+
+# SEO settings
+lang: es
+author: "Yigüirros Touring Guide"
+timezone: America/Costa_Rica
+
+# Social media
+github_username: pochonski
+instagram_username: YigüirrosTouringGuide

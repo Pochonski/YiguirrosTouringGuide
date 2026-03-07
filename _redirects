@@ -1,0 +1,21 @@
+# GitHub Pages redirects
+# Home page
+/ /index.html 200
+
+# Tours pages
+/tours /pages/tours.html 200
+/about /pages/about.html 200
+/contact /pages/contact.html 200
+
+# Individual tour pages
+/tours/aguas-termales /pages/tours/aguas_termales.html 200
+/tours/cahuita /pages/tours/cahuita.html 200
+/tours/canopy-monteverde /pages/tours/canopy_monteverde.html 200
+/tours/celeste-river-hike /pages/tours/celeste_river_hike.html 200
+/tours/snorkeling /pages/tours/snorkeling.html 200
+/tours/volcano-hike /pages/tours/volcano_hike.html 200
+
+# Assets
+/assets/* /assets/:splat 200
+/css/* /css/:splat 200
+/js/* /js/:splat 200
