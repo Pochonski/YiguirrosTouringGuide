@@ -1,4 +1,4 @@
-# 🦥 Yiguirros Touring Guide - Sloth Adventure CR
+# 🦥 Yiguirros Touring Guide
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-blue.svg)](https://www.php.net/)
@@ -327,7 +327,6 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 - **Proyecto**: Yiguirros Touring Guide
 - **Email**: joseph19102005@gmail.com
 - **GitHub**: [pochonski](https://github.com/tu-usuario)
-- **Web**: https://yiguirros-touring.com
 
 ---
 
