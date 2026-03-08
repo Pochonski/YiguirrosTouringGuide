@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Script from 'next/script';
 import { useState } from 'react';
 
 export default function Home() {
@@ -23,8 +24,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         {/* Core theme CSS */}
         <link href="/css/styles.css?v=20251213" rel="stylesheet" />
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-56CV47Z61R"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
         <script dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
@@ -231,19 +231,9 @@ export default function Home() {
           <p>&copy; 2026 Yigüirros Touring Guide. Todos los derechos reservados.</p>
         </footer>
         {/* Scripts */}
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="/js/scripts.js"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            if (document.querySelector('form[data-sb-form-api-token]')) {
-              var sb = document.createElement('script');
-              sb.src = 'https://cdn.startbootstrap.com/sb-forms-latest.js';
-              document.head.appendChild(sb);
-            }
-          `,
-        }} />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" strategy="afterInteractive" />
+        <Script src="/js/scripts.js" strategy="afterInteractive" />
+        <Script src="https://cdn.startbootstrap.com/sb-forms-latest.js" strategy="lazy" />
         {/* WhatsApp Floating Button */}
         <a href="https://wa.me/50664779672?text=Hi!%20I'm%20interested%20in%20learning%20more%20about%20your%20services." 
            className="whatsapp-button" target="_blank" aria-label="Chat with us on WhatsApp">
@@ -252,8 +242,8 @@ export default function Home() {
           </svg>
         </a>
         {/* Translation System */}
-        <script src="/js/translations.js"></script>
-        <script src="/js/language-switcher.js"></script>
+        <Script src="/js/translations.js" strategy="afterInteractive" />
+        <Script src="/js/language-switcher.js" strategy="afterInteractive" />
       </body>
     </>
   );
